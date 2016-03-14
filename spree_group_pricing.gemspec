@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version     = '2.0.1'
   s.summary     = 'Group pricing for product orders.'
   s.description = 'Similar to volume pricing, but rather than calculating discount based upon quantity in current order we calculate based on quantity of all orders.'
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.0.0'
 
   s.author            = 'Jeff Dutil'
   s.email             = 'jdutil@burlingtonwebapps.com'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_backend', '>= 2.2.0'
+  s.add_dependency 'spree_backend', '>= 3.0.0'
 
   s.add_development_dependency 'capybara', '~> 2.2.1'
   s.add_development_dependency 'coffee-rails', '~> 4.0.0'
